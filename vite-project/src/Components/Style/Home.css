@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background: #9187dd; /* Overall container background */
+    color: #000;
+  }
+  
+  .home-left {
+    flex: 1;
+    padding: 50px;
+    background-color: #9175d9; /* Light purple background for the left section */
+    color: #1d3557;
+  }
+  
+  .home-left h1 {
+    font-size: 4.5rem; /* Increased size */
+    margin-bottom: 10px;
+    color: #1d3557;
+  }
+  
+  .home-left h1 span {
+    color: #ffffff; /* Colorful text for specific spans */
+  }
+  
+  .home-left h2 {
+    font-size: 3.5rem; /* Increased size */
+    color: #457b9d;
+  }
+  
+  .home-left h2 span {
+    color: #e63946;
+  }
+  
+  .home-left p {
+    font-size: 1.5rem; /* Increased size */
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .roles {
+    margin-top: 20px;
+    font-size: 2rem; /* Increased size */
+    font-weight: bold;
+    color: #1d3557;
+    background-color: #a8dadc; /* Light blue background for roles */
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #1d3557;
+    width: 25ch; /* Adjust for text width */
+    animation: typing 4s steps(25, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  .roles span {
+    color: #e63946; /* Different color for roles text */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 25ch; /* Match the width of the text */
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #1d3557;
+    }
+  }
+  
+  .home-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  
+    .home-left {
+      padding: 20px; /* Reduce padding for mobile */
+      text-align: center; /* Center-align text for mobile */
+    }
+  
+    .home-left h1 {
+      font-size: 3rem; /* Reduce heading size for smaller screens */
+    }
+  
+    .home-left h2 {
+      font-size: 2.5rem; /* Adjust subheading size */
+    }
+  
+    .home-left p {
+      font-size: 1.2rem; /* Adjust paragraph size */
+    }
+  
+    .roles {
+      font-size: 1.5rem; /* Reduce font size for roles */
+      padding: 8px; /* Adjust padding */
+      width: 20ch; /* Adjust text width for smaller screens */
+    }
+  
+    .home-right {
+      margin-top: 20px;
+    }
+  
+    .profile-image {
+      width: 80%; /* Increase width for better fit on mobile */
+      max-width: 500px;
+    }
+  }
+  

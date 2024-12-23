@@ -1,0 +1,145 @@
+.about{
+  background-color: rgb(255, 255, 255)
+}
+
+/* Base container for the timeline */
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+   
+  }
+  
+  /* Timeline item styles */
+  .timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  /* Left timeline (positions content to the left) */
+  .left-timeline {
+    flex-direction: row-reverse;
+  }
+  
+  .left-content {
+    background-color: #f56565; /* Red color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .left-content h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .left-content p {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+  /* Right timeline (positions content to the right) */
+  .right-timeline {
+    flex-direction: row;
+  }
+  
+  .right-content {
+    background-color: #e2e8f0; /* Light gray color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .right-content h3 {
+    font-size: 2rem;
+    color: #2d3748; /* Dark gray color */
+    font-weight: bold;
+  }
+  
+  .right-content p {
+    font-size: 1.5rem;
+    color: #1a202c; /* Dark gray text */
+    line-height: 1.5;
+  }
+  
+  /* Circle for timeline step */
+  .timeline-circle {
+    background-color: #2d3748; /* Dark gray color */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  .timeline-circle h1 {
+    margin: 0;
+  }
+  @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+  /* Responsive Styles for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .timeline-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-content, 
+    .right-content {
+      width: 90%; /* Take most of the screen width */
+      text-align: center; /* Center the text */
+    }
+  
+    .timeline-circle {
+      margin-bottom: 10px; /* Add spacing for the circle */
+    }
+  
+    .left-content h3,
+    .right-content h3 {
+      font-size: 1.25rem; /* Smaller font for mobile */
+    }
+  
+    .left-content p,
+    .right-content p {
+      font-size: 0.875rem; /* Adjust text size for mobile */
+    }
+  }
+  
+  /* Extra Small Devices (Mobile Phones) */
+  @media screen and (max-width: 480px) {
+    .timeline-circle {
+      width: 40px;
+      height: 40px;
+      font-size: 1rem; /* Adjust circle size */
+    }
+  
+    .left-content p,
+    .right-content p {
+      font-size: 0.8rem; /* Reduce text size further */
+    }
+  }
+  
