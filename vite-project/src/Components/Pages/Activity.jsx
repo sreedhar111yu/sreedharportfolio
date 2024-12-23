@@ -102,90 +102,90 @@ function Activity() {
   const Certificationdata=[
     {
       title: "Connecting to a MongoDB Database",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo,
       link: "https://drive.google.com/file/d/1saDSQ5EP6dmgPCh3Mf6KX_GXqYe3LJ40/view?usp=sharing"
     },
     {
       title: "Introduction to MongoDB",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1O_RMfUP612DPh_55LDCMUeOecdz23Cpl/view?usp=sharing"
 
     },
     {
       title: "Getting Started with MongoDB Atlas",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/13kFtmnYHWsl6CgcaEtpw3umo05vOGJsm/view?usp=sharing"
 
     },
     {
       title: "MongoDB Data Modeling Intro",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1TC0YQQy0-44YQD5iM3j3Yud6AnCKVjCd/view?usp=sharing"
 
     },
     {
       title: "MongoDB Atlas Search",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1OMnIg8HQ21tESAUDV1BuAYPCvCHhJ1LA/view?usp=sharing"
 
     },
     {
       title: "MongoDB Indexes",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1AIPkuXAfVMUi7puSoO0TTUQoW-XCe98J/view?usp=sharing"
 
     },
     {
       title: "MongoDB CRUD Operations: Insert and Find Documents",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1YubQ_VPW0PbomT8kPQWu0WMSVocjooPx/view?usp=sharing"
 
     },
     {
       title: "MongoDB CRUD Operations: Modifying Query Results",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1YQNlDrld6_5zuaszzlAOuWI_sgs3eiT9/view?usp=sharing"
 
     },
     {
       title: "MongoDB CRUD Operations: Replace and Delete Documents",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1M9Xmw48XiZ8HndSpAn5uILM9jnwH9ZPP/view?usp=sharing"
 
     },
     {
       title: "MongoDB Aggregation",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1fPvtesZNH_GH41x9dNPH8xm-i6HVSdIi/view?usp=sharing"
 
     },
     {
       title: "MongoDB Transactions",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1DiqQZ0vegV7JUOaOCoglQQc6h3Cx3Wt9/view?usp=sharing"
 
     },
     {
       title: "MongoDB and the Document Model",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1MuUZQZtZTst1gP_Vfzge2k00Bh420NUC/view?usp=sharing"
 
     },
     {
       title: "MongoDB and the Document Model",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      description: "ICT academy.",
       image: mongo, 
       link:"https://drive.google.com/file/d/1MuUZQZtZTst1gP_Vfzge2k00Bh420NUC/view?usp=sharing"
 
