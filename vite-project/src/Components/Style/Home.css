@@ -24,6 +24,10 @@
     padding: 50px;
     background-color: #9175d9; /* Light purple background for the left section */
     color: #1d3557;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
   }
   
   .home-left h1 {
@@ -94,6 +98,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
   }
   
   .profile-image {
@@ -108,12 +116,15 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
-      padding: 10px; /* Reduce padding for smaller screens */
+      padding: 10px; 
     }
   
     .home-left {
-      padding: 20px; /* Reduce padding for mobile */
-      text-align: center; /* Center-align text for mobile */
+      padding: 20px; 
+      text-align: center; 
+      box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
   
     .home-left h1 {
@@ -136,6 +147,9 @@
   
     .home-right {
       margin-top: 20px;
+      box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
   
     .profile-image {
